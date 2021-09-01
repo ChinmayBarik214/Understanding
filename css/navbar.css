@@ -1,0 +1,41 @@
+.container{
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+.item1{
+    font-family: 'Allison', cursive;
+    font-size: 7em;
+    color: rgb(100,144,46);
+}
+.nav-link{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    
+}
+.nav-link2{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+.item8{
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin: 0.618em;
+    background-color: rgb(142,199,61);
+}
+.nav-link:hover{
+    color: rgb(142,199,61);
+}
+
+@media (max-width: 400px){
+    .container{
+        grid-template-rows: repeat(9, 1.5em);
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+}
