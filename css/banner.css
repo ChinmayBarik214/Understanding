@@ -50,13 +50,20 @@ body, html{
     text-align: center;
     padding: 50px 80px;
 }
-.section-light{
+.section-green{
     background-color: rgb(97,141,43);
     color: white;
+    min-height: 100%;
+}
+.section-light2{
+    background-color: white;
+    color: black;
+    min-height: 100%;
 }
 .section-dark{
     background-color: #282e34;
     color: #ddd;
+    min-height: 100%;
 }
 .ptext{
     position: absolute;
@@ -112,3 +119,15 @@ body, html{
     background-color: rgb(181, 228, 116);
     transition: 0.2s;
 }
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styles for Mobile Devices */'
+/* @media(max-width: 400px){
+    .gcontainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+} */
+/* Styles for Mobile Devices */
