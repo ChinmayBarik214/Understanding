@@ -1,0 +1,47 @@
+.navbar-container{
+    background-color: lightgray;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+.nav-item2{
+    font-family: 'Allison', cursive;
+    font-size: 5em;
+    color: rgb(100,144,46);
+}
+.nav-logo-link{
+    text-decoration: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: rgb(142,199,61);
+    transition: 0.2s;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-item9{
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin: 0.618em;
+    background-color: rgb(142,199,61);
+}
+.nav-item9:hover{
+    background-color: rgb(181, 228, 116);
+    transition: 0.2s;
+}
+.banner-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header";
+}
