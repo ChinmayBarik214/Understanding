@@ -30,6 +30,7 @@
 }
 .nav-link:hover{
     color: rgb(142,199,61);
+    transition: 0.2s;
 }
 
 @media (max-width: 400px){

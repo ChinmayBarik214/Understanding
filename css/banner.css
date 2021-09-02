@@ -1,3 +1,11 @@
+/*  In case padding causes horizontal scroll
+* , *:before, *:after{ 
+    box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    -webkit-box-sizing:border-box; 
+    -ms-box-sizing:border-box;
+    */
+
 body, html{
     height: 100%;
     margin: 0;
@@ -9,7 +17,6 @@ body, html{
 }
 .pimg1, .pimg2, .pimg3{
     position: relative;
-    opacity: 0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +28,7 @@ body, html{
     background-attachment: fixed;
 }
 .pimg1{
-    background-image: url("../images/city.jpg");
+    background-image: url("../images/bannner.jpg");
     min-height: 400px;
 }
 .pimg2{
@@ -38,8 +45,8 @@ body, html{
     padding: 50px 80px;
 }
 .section-light{
-    background-color: #f4f4f4;
-    color: #666;
+    background-color: rgb(97,141,43);
+    color: white;
 }
 .section-dark{
     background-color: #282e34;
@@ -47,13 +54,14 @@ body, html{
 }
 .ptext{
     position: absolute;
-    top: 50%;
+    top: 1em;
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: black;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    margin: 10px;
 }
 .ptext .border{
     background-color: #111;
@@ -67,4 +75,20 @@ body, html{
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
     }
+}
+.ptext2{
+    position: absolute;
+    top: 2em;
+    width: 50%;
+    text-align: left;
+    margin: 10px;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.gcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
