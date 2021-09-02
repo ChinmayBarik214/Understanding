@@ -15,10 +15,9 @@ body, html{
     line-height: 1.8em;
     color: #666;
 }
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
     position: relative;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 
     /*
@@ -29,17 +28,24 @@ body, html{
 }
 .pimg1{
     background-image: url("../images/bannner.jpg");
-    min-height: 400px;
+    min-height: 70vh;
 }
 .pimg2{
     background-image: url("../images/city2.jpg");
-    min-height: 400px;
+    min-height: 100%;
 }
 .pimg3{
     background-image: url("../images/city3.jpg");
     min-height: 400px;
 }
-
+.pimg4{
+    background-image: url("../images/city4.jpg");
+    min-height: 400px;
+}
+.pimg5{
+    background-image: url("../images/city5.jpg");
+    min-height: 400px;
+}
 .section{
     text-align: center;
     padding: 50px 80px;
@@ -72,13 +78,13 @@ body, html{
     background-color: transparent;
 }
 @media(max-width: 560px){
-    .pimg1, .pimg2, .pimg3{
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
         background-attachment: scroll;
     }
 }
 .ptext2{
     position: absolute;
-    top: 2em;
+    top: 50%;
     width: 50%;
     text-align: left;
     margin: 10px;
@@ -91,4 +97,18 @@ body, html{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+.button{
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin: 0.618em;
+    background-color: rgb(142,199,61);
+}
+.button-a{
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(181, 228, 116);
+    transition: 0.2s;
 }
