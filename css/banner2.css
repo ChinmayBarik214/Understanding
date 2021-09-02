@@ -1,0 +1,33 @@
+.banner-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75vh;
+    grid-template-areas: 
+    "left right";
+}
+.banner{
+    grid-area: 1/1/2/3;
+}
+.banner-img{
+    height: 75vh;
+    float: right;
+}
+.banner-text{
+    grid-area: left;
+    align-self: center;
+    z-index: 1;
+}
+.banner-h4{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .2em;
+    font-size: 15px;
+    line-height: 1.1em;
+    margin: 15px 0.67em 0.67em 15px;
+}
+.banner-p{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2em;
+    margin: 15px 0.67em 0.67em 15px;
+}
