@@ -74,12 +74,31 @@
         letter-spacing: 0.15em;
         line-height: 1.1em;
     }
+    .four-item4-item3{
+        background-image: url("../images/phone-girl.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .four-item4-item4{
+        background-image: url("../images/group-hands.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50px;
+    }
+    .four-item4-item7{
+        background-image: url("../images/laptop-man.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 .get-started{
     border-radius: 5px;
     padding: 12px 18px;
     margin: 0.618em;
     background-color: rgb(142,199,61);
-    width: 100px;
+    width: 130px;
     margin-left: 0;
 }
 .get-started:hover{

@@ -1,0 +1,18 @@
+.three-steps-container{
+    background-color: rgb(242,242,242);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "heading heading heading"
+    "contenta contentb contentc";
+}
+.three-steps-heading{
+    grid-area: heading;
+    padding: 12px 18px;
+    margin: 0.618em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.03em;
+    justify-self: center;
+}
