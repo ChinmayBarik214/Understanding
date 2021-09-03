@@ -9,8 +9,12 @@
     grid-area: 1/1/2/3;
 }
 .banner-img{
-    height: 75vh;
-    float: right;
+    background-image: url("../images/bannner.jpg");
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    min-height: 75vh;
 }
 .banner-text{
     grid-area: left;

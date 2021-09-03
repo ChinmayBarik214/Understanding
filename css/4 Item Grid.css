@@ -1,20 +1,28 @@
 .four-container{
     display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
     grid-template-areas: 
     "image contenta"
     "contentb contentc";
 }
 .four-item1{
-    background-color: red;
+    background-image: url("../images/city2.jpg");
+    background-attachment: fixed;
+    background-position: center;
     min-height: 400px;
     grid-area: image;
 }
 .four-item2{
-    background-color: green;
+    background-color: white;
     min-height: 400px;
     grid-area: contenta;
+    padding: 12px 18px;
+    margin: 0.618em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.03em;
+    line-height: 1.6em;
 }
 .four-item3{
     background-color: white;
@@ -25,4 +33,16 @@
     background-color: green;
     min-height: 400px;
     grid-area: contentc;
+}
+.get-started{
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin: 0.618em;
+    background-color: rgb(142,199,61);
+    width: 100px;
+    margin-left: 0;
+}
+.get-started:hover{
+    background-color: rgb(181, 228, 116);
+    transition: 0.2s;
 }
