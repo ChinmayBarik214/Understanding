@@ -1,0 +1,28 @@
+.four-container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+    "image contenta"
+    "contentb contentc";
+}
+.four-item1{
+    background-color: red;
+    min-height: 400px;
+    grid-area: image;
+}
+.four-item2{
+    background-color: green;
+    min-height: 400px;
+    grid-area: contenta;
+}
+.four-item3{
+    background-color: white;
+    min-height: 400px;
+    grid-area: contentb;
+}
+.four-item4{
+    background-color: green;
+    min-height: 400px;
+    grid-area: contentc;
+}
