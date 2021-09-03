@@ -16,3 +16,24 @@
     letter-spacing: 0.03em;
     justify-self: center;
 }
+.three-steps-item1{
+    min-height: 400px;
+}
+.three-steps-item1-image1{
+    background-image: url("../images/Numbers/number-1.png");
+    min-height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.three-steps-item1-image2{
+    background-image: url("../images/Numbers/number-2.png");
+    min-height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.three-steps-item1-image3{
+    background-image: url("../images/Numbers/number-3.png");
+    min-height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
