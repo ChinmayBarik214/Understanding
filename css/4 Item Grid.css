@@ -48,15 +48,31 @@
     "contentd contente"
     "contentf contentg";
     padding: 12px 18px;
-    margin: 0.618em;
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
     letter-spacing: 0.03em;
     line-height: 1.6em;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
 }
     .four-item4-item1{
         grid-area: contenta;
+        
+    }
+    .four-item4-item2{
+        align-self: center;
+    }
+    .four-item4-item5{
+        align-self: center;
+    }
+    .four-item4-item6{
+        align-self: center;
+    }
+    .four-item4-link{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 0.15em;
+        line-height: 1.1em;
     }
 .get-started{
     border-radius: 5px;
