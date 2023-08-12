@@ -25,18 +25,21 @@
     min-height: 120px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .three-steps-item1-image2{
     background-image: url("../images/Numbers/number-2.png");
     min-height: 120px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .three-steps-item1-image3{
     background-image: url("../images/Numbers/number-3.png");
     min-height: 120px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .three-steps-footer{
     grid-area: footer;
@@ -61,4 +64,5 @@
     font-size: 21px;
     letter-spacing: 0.03em;
     line-height: 1.6em;
+    text-align: center;
 }
