@@ -48,6 +48,7 @@
     margin: 0.618em;
     background-color: rgb(142,199,61);
     width: 100px;
+    text-align: center;
 }
 .get-started-center:hover{
     background-color: rgb(181, 228, 116);
